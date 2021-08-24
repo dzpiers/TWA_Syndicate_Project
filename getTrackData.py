@@ -7,6 +7,8 @@ load_dotenv()
 client_id = os.getenv("SPOTIFY_CLIENT_ID")
 client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
 
+'Insert your own client id and secret here'
+
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
 
@@ -40,10 +42,4 @@ def getTrackData(id):
 
     return track
 
-'''
-id = getTrackID("dhruv.piers", "3odNjkuC77flx2Aob21Ejp")
-for song in id:
-    print(getTrackData(song))
-'''
-
-'https://morioh.com/p/31b8a607b2b0'
+'Help from https://morioh.com/p/31b8a607b2b0'
