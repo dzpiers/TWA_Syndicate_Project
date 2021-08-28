@@ -7,7 +7,7 @@ load_dotenv()
 client_id = os.getenv("SPOTIFY_CLIENT_ID")
 client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
 
-'Insert your own client id and secret here'
+'''Insert your own client id and secret here (as string, remove os.genenv() function). Go to https://developer.spotify.com/documentation/web-api/ for more info.'''
 
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
