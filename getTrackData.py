@@ -3,11 +3,14 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
 import os
 
+
 load_dotenv()
 client_id = os.getenv("SPOTIFY_CLIENT_ID")
 client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
+genius_token = os.getenv("GENIUS_TOKEN")
 
-'''Insert your own client id and secret here (as string, remove os.genenv() function). Go to https://developer.spotify.com/documentation/web-api/ for more info.'''
+'''Insert your own client id and secret here (as string, remove os.genenv() function). 
+Go to https://developer.spotify.com/documentation/web-api/ for more info.'''
 
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
@@ -29,7 +32,6 @@ def getTrackData(id):
     release_date = meta['album']['release_date']
     length = meta['duration_ms']
     popularity = meta['popularity']
-    url = meta['external_urls']['spotify']
 
     track = {}
     track['name'] = name
@@ -38,7 +40,6 @@ def getTrackData(id):
     track['release date'] = release_date
     track['length'] = length
     track['popularity'] = popularity
-    track['url'] = url
 
     return track
 
