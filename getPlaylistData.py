@@ -22,6 +22,16 @@ def getPlayistData(*argv):
                     if lyrics != None:
                         track_info['lyrics'] = lyrics
                         PlaylistData.append(track_info)
+                    else:
+                        lyrics = getLyrics.getLyrics(genius_url)
+                        if lyrics != None:
+                            track_info['lyrics'] = lyrics
+                            PlaylistData.append(track_info)
+                        else:
+                            lyrics = getLyrics.getLyrics(genius_url)
+                            if lyrics != None:
+                                track_info['lyrics'] = lyrics
+                                PlaylistData.append(track_info)
             print(f'Getting data for playlist {playlist_no+1}, track {track_no+1}')
     return PlaylistData
 
