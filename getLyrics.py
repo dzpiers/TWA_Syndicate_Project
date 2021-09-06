@@ -44,4 +44,4 @@ def getLyrics(genius_url):
     except:
         return None
 
-'Help from https://towardsdatascience.com/become-a-lyrical-genius-4362e7710e43'
+# Help from https://towardsdatascience.com/become-a-lyrical-genius-4362e7710e43
