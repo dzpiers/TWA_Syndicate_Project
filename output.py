@@ -66,6 +66,39 @@ playlist_1997_uri = "37i9dQZF1DWWKd15PHZNnl"
 playlist_1998_uri = "37i9dQZF1DWWmGB2u14f8m"
 playlist_1999_uri = "37i9dQZF1DX4PrR66miO50"
 
+playlist_1990_rap_uri = "37i9dQZF1DWW45yEGjKTLP"
+playlist_1991_rap_uri = "37i9dQZF1DX3zKvS2WqJNQ"
+playlist_1992_rap_uri = "37i9dQZF1DX8f9HUGHP1Xg"
+playlist_1993_rap_uri = "37i9dQZF1DWSJEMFaWwYG8"
+playlist_1994_rap_uri = "37i9dQZF1DX16FYsDCnfL9"
+playlist_1995_rap_uri = "37i9dQZF1DWXV0QpJtpYUl"
+playlist_1996_rap_uri = "37i9dQZF1DWZBTZq94G1cV"
+playlist_1997_rap_uri = "37i9dQZF1DX9KhfaCWRHKQ"
+playlist_1998_rap_uri = "37i9dQZF1DX7VcaGgd2NjX"
+playlist_1999_rap_uri = "37i9dQZF1DXaTwkarURqqL"
+
+playlist_1990_rock_uri = "37i9dQZF1DX7WKiiApnMiP"
+playlist_1991_rock_uri = "37i9dQZF1DX7oIIEPSPoU3"
+playlist_1992_rock_uri = "37i9dQZF1DWSOhLQd7xFdh"
+playlist_1993_rock_uri = "37i9dQZF1DX0yWpalsk2hI"
+playlist_1994_rock_uri = "37i9dQZF1DXb7TP3hnjz42"
+playlist_1995_rock_uri = "37i9dQZF1DXd9YOz6k1Yx4"
+playlist_1996_rock_uri = "37i9dQZF1DX4jSCizAzbyM"
+playlist_1997_rock_uri = "37i9dQZF1DXe3xQ87w7k3M"
+playlist_1998_rock_uri = "37i9dQZF1DWZPqHZ7Q4Gis"
+playlist_1999_rock_uri = "37i9dQZF1DWV4tgsIXfwye"
+
+playlist_1990_party_uri = "37i9dQZF1DXdnkV80yv93x"
+playlist_1991_party_uri = "37i9dQZF1DWUAlPk7Wg6Rp"
+playlist_1992_party_uri = "37i9dQZF1DX8Zwbqfqz39o"
+playlist_1993_party_uri = "37i9dQZF1DX2isOEVu6IQC"
+playlist_1994_party_uri = "37i9dQZF1DX26eeMjJtcCh"
+playlist_1995_party_uri = "37i9dQZF1DXbYSzUjUMKzC"
+playlist_1996_party_uri = "37i9dQZF1DWU5Qb1HUtZCA"
+playlist_1997_party_uri = "37i9dQZF1DXdqLvocLoRhO"
+playlist_1998_party_uri = "37i9dQZF1DX5msvI3CypeA"
+playlist_1999_party_uri = "37i9dQZF1DXdmA4leK8vrY"
+
 playlist_2000_uri = "37i9dQZF1DWUZv12GM5cFk"
 playlist_2001_uri = "37i9dQZF1DX9Ol4tZWPH6V"
 playlist_2002_uri = "37i9dQZF1DX0P7PzzKwEKl"
@@ -215,6 +248,39 @@ ids_1997 = getTrackData.getTrackID(user_uri, playlist_1997_uri)
 ids_1998 = getTrackData.getTrackID(user_uri, playlist_1998_uri)
 ids_1999 = getTrackData.getTrackID(user_uri, playlist_1999_uri)
 
+ids_1990_rap = getTrackData.getTrackID(user_uri, playlist_1990_rap_uri)
+ids_1991_rap = getTrackData.getTrackID(user_uri, playlist_1991_rap_uri)
+ids_1992_rap = getTrackData.getTrackID(user_uri, playlist_1992_rap_uri)
+ids_1993_rap = getTrackData.getTrackID(user_uri, playlist_1993_rap_uri)
+ids_1994_rap = getTrackData.getTrackID(user_uri, playlist_1994_rap_uri)
+ids_1995_rap = getTrackData.getTrackID(user_uri, playlist_1995_rap_uri)
+ids_1996_rap = getTrackData.getTrackID(user_uri, playlist_1996_rap_uri)
+ids_1997_rap = getTrackData.getTrackID(user_uri, playlist_1997_rap_uri)
+ids_1998_rap = getTrackData.getTrackID(user_uri, playlist_1998_rap_uri)
+ids_1999_rap = getTrackData.getTrackID(user_uri, playlist_1999_rap_uri)
+
+ids_1990_rock = getTrackData.getTrackID(user_uri, playlist_1990_rock_uri)
+ids_1991_rock = getTrackData.getTrackID(user_uri, playlist_1991_rock_uri)
+ids_1992_rock = getTrackData.getTrackID(user_uri, playlist_1992_rock_uri)
+ids_1993_rock = getTrackData.getTrackID(user_uri, playlist_1993_rock_uri)
+ids_1994_rock = getTrackData.getTrackID(user_uri, playlist_1994_rock_uri)
+ids_1995_rock = getTrackData.getTrackID(user_uri, playlist_1995_rock_uri)
+ids_1996_rock = getTrackData.getTrackID(user_uri, playlist_1996_rock_uri)
+ids_1997_rock = getTrackData.getTrackID(user_uri, playlist_1997_rock_uri)
+ids_1998_rock = getTrackData.getTrackID(user_uri, playlist_1998_rock_uri)
+ids_1999_rock = getTrackData.getTrackID(user_uri, playlist_1999_rock_uri)
+
+ids_1990_party = getTrackData.getTrackID(user_uri, playlist_1990_party_uri)
+ids_1991_party = getTrackData.getTrackID(user_uri, playlist_1991_party_uri)
+ids_1992_party = getTrackData.getTrackID(user_uri, playlist_1992_party_uri)
+ids_1993_party = getTrackData.getTrackID(user_uri, playlist_1993_party_uri)
+ids_1994_party = getTrackData.getTrackID(user_uri, playlist_1994_party_uri)
+ids_1995_party = getTrackData.getTrackID(user_uri, playlist_1995_party_uri)
+ids_1996_party = getTrackData.getTrackID(user_uri, playlist_1996_party_uri)
+ids_1997_party = getTrackData.getTrackID(user_uri, playlist_1997_party_uri)
+ids_1998_party = getTrackData.getTrackID(user_uri, playlist_1998_party_uri)
+ids_1999_party = getTrackData.getTrackID(user_uri, playlist_1999_party_uri)
+
 ids_2000 = getTrackData.getTrackID(user_uri, playlist_2000_uri)
 ids_2001 = getTrackData.getTrackID(user_uri, playlist_2001_uri)
 ids_2002 = getTrackData.getTrackID(user_uri, playlist_2002_uri)
@@ -304,10 +370,10 @@ ids_2018_party = getTrackData.getTrackID(user_uri, playlist_2018_party_uri)
 ids_2019_party = getTrackData.getTrackID(user_uri, playlist_2019_party_uri)
 
 # Create dataframe for list of ids (as many as you want)
-playlist_data = getPlaylistData.getPlayistData(ids_2000_rock, ids_2001_rock, ids_2002_rock, ids_2003_rock, ids_2004_rock, ids_2005_rock, ids_2006_rock, ids_2007_rock, ids_2008_rock, ids_2009_rock)
+playlist_data = getPlaylistData.getPlayistData(ids_1990_rock, ids_1991_rock, ids_1992_rock, ids_1993_rock, ids_1994_rock, ids_1995_rock, ids_1996_rock, ids_1997_rock, ids_1998_rock, ids_1999_rock)
 
 # Choose csv name for output
-csv_name = "2000s_rock.csv"
+csv_name = "1990s_rock.csv"
 
 # Produce csv
 getPlaylistData.getPlaylistCSV(playlist_data, csv_name)
