@@ -7,7 +7,6 @@ import os
 load_dotenv()
 client_id = os.getenv("SPOTIFY_CLIENT_ID")
 client_secret = os.getenv("SPOTIFY_CLIENT_SECRET")
-genius_token = os.getenv("GENIUS_TOKEN")
 
 # Insert your own client id and secret here (as string, remove os.genenv() function).
 # Go to https://developer.spotify.com/documentation/web-api/ for more info.

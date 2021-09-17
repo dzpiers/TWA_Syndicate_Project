@@ -2,7 +2,7 @@ import getTrackData
 import getLyrics
 import pandas as pd
 
-def getPlayistData(*argv):
+def getPlaylistData(*argv):
     PlaylistData = []
     for playlist_no, arg in enumerate(argv):
         for track_no, id in enumerate(arg):
